@@ -1,0 +1,43 @@
+{
+  "name": "node-flow-starter",
+  "version": "0.1.0",
+  "description": "Starter template for node flow projects",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint && jest ./test; exit 0;",
+    "version": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm test && npm run build",
+    "lint": "eslint src/**/*.js test/**/*.js; exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watzon/node-flow-starter.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "library",
+    "starter",
+    "boilerplate",
+    "skeleton"
+  ],
+  "author": "Chris Watson <chris@watzon.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watzon/node-library-starter/issues"
+  },
+  "homepage": "https://github.com/watzon/node-library-starter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "conventional-changelog-cli": "^1.3.5",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-flow": "^1.0.1",
+    "eslint-plugin-jest": "^21.3.2",
+    "flow-bin": "^0.59.0",
+    "jest": "^21.2.1",
+    "standard": "^10.0.3"
+  }
+}
