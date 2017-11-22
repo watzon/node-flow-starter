@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "jest ./test",
+    "coverage": "jest ./test --coverage",
     "version": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "build": "babel src/ -d lib/",
     "lint": "eslint src/**/*.js test/**/*.js"
@@ -24,9 +25,9 @@
   "author": "Chris Watson <chris@watzon.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/watzon/node-library-starter/issues"
+    "url": "https://github.com/watzon/node-flow-starter/issues"
   },
-  "homepage": "https://github.com/watzon/node-library-starter#readme",
+  "homepage": "https://github.com/watzon/node-flow-starter#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
