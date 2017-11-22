@@ -6,4 +6,5 @@ install:
 script:
   - npm run lint
   - npm run build
+after_script:
   - npm test
