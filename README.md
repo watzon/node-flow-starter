@@ -1,6 +1,6 @@
 # Node Flow Starter
 
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=for-the-badge)]() [![npm](https://img.shields.io/npm/v/npm.svg?style=for-the-badge)]() [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=for-the-badge)](https://standardjs.com)
+[![Travis](https://img.shields.io/travis/watzon/node-flow-starter.svg?style=for-the-badge)]() [![npm](https://img.shields.io/npm/v/npm.svg?style=for-the-badge)]() [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=for-the-badge)](https://standardjs.com)
 
 ## Description
 

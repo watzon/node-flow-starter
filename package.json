@@ -4,7 +4,7 @@
   "description": "Starter template for node flow projects",
   "main": "lib/index.js",
   "scripts": {
-    "test": "npm run lint && jest ./test",
+    "test": "jest ./test",
     "version": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "build": "babel src/ -d lib/",
     "prepublish": "npm test && npm run build",
